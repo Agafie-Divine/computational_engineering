@@ -8,7 +8,6 @@ Created on Thu Dec 25 05:42:58 2025
 # import all neccessary libraries
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.animation as animation
 
 #%%
 # Initialize variables
