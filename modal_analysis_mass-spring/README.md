@@ -16,29 +16,26 @@ This project uses scientific computing to interpret and visualize the natural fr
 
 ## Static Equilibrium Solution
 The project first assumes static equilibrium with:
-\[
-\mathbf{f} = \mathbf{K}\mathbf{u}
-\]
-* Force vector**f**: A column vector of forces applied to each of the masses. 
-* Displacement vector**u**: A column vector of resulting displacement of each mass after applied force. 
-* Stiffness matrix**K**: Matrix desribing the elastic coupling between masses
+### Ku = f
+* Force vector **f**: A column vector of forces applied to each of the masses. 
+* Displacement vector **u**: A column vector of resulting displacement of each mass after applied force. 
+* Stiffness matrix **K**: Matrix desribing the elastic coupling between masses
 
 ## Dynamic Model and Modal Analysis
-To study the vibration characteristics of the system:
-\[
-\mathbf{M}\ddot{\mathbf{u}} + \mathbf{K}\mathbf{u} = 0
-\]
-* Mass matrix**M**
+To study the vibration characteristics of the system: 
+$M\ddot{u} + K u = 0$
+$$M\ddot{u} + K u = 0$$
+
+* Mass matrix **M**
 
 And assuming harmonic motion, the generalized eigenvalue problem to yield natural frequencies and corresponding mode shapes:
-\[
-\mathbf{K}\boldsymbol{\phi} = \omega^2 \mathbf{M}\boldsymbol{\phi}
-\]
+$$Ku=\omega^2Mu$$
 
-## Results and Engineering Imterpretation
-The analysis produces five distinct mode shapes, which corresponds to the five degree of freedoms of the system.
-The first mode represents a low-frequency motion where all masses move in the same direction, analogous to body bounce in vehicle dynamics.
-Higher modes exhibit increasing numbers of nodes and alternating displacement patterns, indicating localized deformation and higher-frequency behavior.
+## Results and Engineering Interpretation
+The analysis produces five distinct mode shapes, which corresponds to the five degree of freedoms of the system.  
+The first mode represents a low-frequency motion where all masses move in the same direction, analogous to body bounce in vehicle dynamics.  
+Higher modes exhibit increasing numbers of nodes and alternating displacement patterns, indicating localized deformation and higher-frequency behavior.\\
+
 Understanding these vibration modes is essential for:
 * Avoiding resonance
 * Improving ride comfort
