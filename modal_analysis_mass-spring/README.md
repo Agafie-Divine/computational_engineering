@@ -22,8 +22,8 @@ The project first assumes static equilibrium with:
 * Stiffness matrix **K**: Matrix desribing the elastic coupling between masses
 
 ## Dynamic Model and Modal Analysis
-To study the vibration characteristics of the system: 
-$M\ddot{u} + K u = 0$
+To study the vibration characteristics of the system:  
+
 $$M\ddot{u} + K u = 0$$
 
 * Mass matrix **M**
@@ -34,7 +34,7 @@ $$Ku=\omega^2Mu$$
 ## Results and Engineering Interpretation
 The analysis produces five distinct mode shapes, which corresponds to the five degree of freedoms of the system.  
 The first mode represents a low-frequency motion where all masses move in the same direction, analogous to body bounce in vehicle dynamics.  
-Higher modes exhibit increasing numbers of nodes and alternating displacement patterns, indicating localized deformation and higher-frequency behavior.\\
+Higher modes exhibit increasing numbers of nodes and alternating displacement patterns, indicating localized deformation and higher-frequency behavior.  
 
 Understanding these vibration modes is essential for:
 * Avoiding resonance
