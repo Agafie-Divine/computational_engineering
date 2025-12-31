@@ -66,6 +66,7 @@ for p in range(5):
     plt.figure()
     plt.plot(mass_index, mode_norm, marker='o')
     plt.axhline(0)
+    plt.ylim([-1.2, 1.2])
     plt.xlabel('Mass index')
     plt.ylabel('Normalized displacement')
     plt.title(f'Mode {p+1}')
